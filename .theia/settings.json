@@ -5,6 +5,7 @@
         "benguluru",
         "browserslist",
         "container",
+        "get",
         "kotak",
         "logo",
         "mahadevapura",
@@ -23,6 +24,7 @@
         "profile",
         "rajan",
         "ramakka",
-        "supercoins"
+        "supercoins",
+        "ttfb"
     ]
 }
