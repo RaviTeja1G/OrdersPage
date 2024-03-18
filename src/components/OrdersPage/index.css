@@ -86,7 +86,7 @@
     display: flex;
     justify-content: flex-start;
     padding: 10px 14px 10px 14px;
-    background-color: darkslategray;
+    background-color: #34ebc3;
     width: 90%;
     margin-top: 15px;
     margin-bottom: 10px;
@@ -191,6 +191,7 @@
     color: #000000;
     font-size: 15px;
     font-weight: 700;
+    margin-bottom: 0;
   }
   .stars-container {
     display: flex;
@@ -262,10 +263,13 @@
     font-size: 14px;
     font-weight: 700;
     margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .view-breakage {
     color: darkgoldenrod;
-    font-size: 8px;
+    font-size: 9px;
     margin: 0;
     text-align: center;
   }
@@ -398,6 +402,32 @@
     font-weight: 600;
     padding: 10px 14px 10px 14px;
     /* border: 2px solid black; */
+  }
+  .trigger-button {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Roboto";
+    color: white;
+    padding: 8px 15px 8px 15px;
+    margin: 8px;
+    background-color: #7c69e9;
+    border: none;
+    border-radius: 4px;
+    outline: none;
+  }
+  .popup-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  .rupee-symbol {
+    color: #000000;
+    font-size: 13px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
 

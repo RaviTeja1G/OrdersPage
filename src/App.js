@@ -7,6 +7,8 @@ import Home from "./components/Home";
 import Profile from "./components/Profile";
 import OrdersPage from "./components/OrdersPage";
 
+import ReactPopup from "./components/ReactPopup";
+
 import "./App.css";
 
 const App = () => {
@@ -35,6 +37,7 @@ const App = () => {
         {page === "home" && <Home navigateTo={navigateTo} />}
         {page === "profile" && <Profile navigateTo={navigateTo} />}
         {page === "orders" && <OrdersPage navigateTo={navigateTo} />}
+        {page === "pop-up" && <ReactPopup navigateTo={navigateTo} />}
       </div>
     </div>
   );
