@@ -3,24 +3,52 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    /* border: 2px solid black; */
-    height: 100vh;
+    /* border: 2px solid blue; */
+    min-height: 100vh;
     width: 100vw;
-    padding: 10px 30px 30px 30px;
+    /* padding: 10px 30px 30px 30px; */
   }
+
+  .order-tab-2 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    /* padding: 10px 14px 10px 30px; */
+    /* border: 2px solid black; */
+    /* width: 100vw; */
+    margin: 15px 20px 0px 20px;
+  }
+
+  .arrow-button-2 {
+    background-color: transparent;
+    margin: 0;
+    border: 0;
+    padding: 0;
+  }
+  .left-arrow-2 {
+    font-size: 22px;
+    color: #000000;
+  }
+  .orders-heading-2 {
+    font-size: 15px;
+    margin-left: 11px;
+    font-weight: 700;
+  }
+
   .search-bar-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     /* border: 1px solid yellow; */
     margin-bottom: 10px;
+    margin: 20px 20px 10px 20px;
   }
   .search-container {
     border: 1px solid gray;
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    width: 76%;
+    width: 72%;
     padding: 0;
     border-radius: 3px;
   }
@@ -67,6 +95,7 @@
     padding-bottom: 0;
     margin-top: 17px;
     margin-bottom: 18px;
+    margin: 17px 20px 18px 20px;
   }
   .delivered-container-2 {
     display: flex;
@@ -100,12 +129,12 @@
     justify-content: flex-start;
     align-items: flex-start;
     /* border: 2px solid black; */
-    height: 30vh;
+    height: 32vh;
     width: cover;
     background-color: #f0f5f5;
-    margin: 0 !important;
     padding: 10px 15px 0px 15px;
     background-size: cover;
+    margin: 0px 20px 0px 20px;
   }
   .main-watch-container-2 {
     display: flex;
@@ -120,7 +149,6 @@
     height: 70px;
     width: 50px;
     /* border: 2px solid black; */
-
     margin: 0;
     margin-right: 10px;
   }
@@ -217,11 +245,11 @@
     justify-content: space-between;
     align-items: center;
     /* border: 2px solid black; */
-    width: 95vw;
+    width: 100%;
     margin: 0;
     padding: 0;
     margin-left: 0px;
-    margin-top: 18px;
+    margin-top: 12px;
   }
   .name-buttons-container {
     display: flex;
@@ -243,29 +271,6 @@
     margin-left: 10px;
     font-weight: 600;
     font-size: 13px;
-  }
-  .arrow-button-2 {
-    background-color: transparent;
-    margin: 0;
-    border: 0;
-    padding: 0;
-  }
-  .left-arrow-2 {
-    font-size: 22px;
-    color: #000000;
-  }
-  .orders-heading-2 {
-    font-size: 15px;
-    margin-left: 11px;
-    font-weight: 700;
-  }
-  .order-tab-2 {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    padding: 10px 14px 10px 30px;
-    /* border: 2px solid black; */
-    width: 100%;
   }
 }
 

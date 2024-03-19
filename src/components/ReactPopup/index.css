@@ -117,7 +117,7 @@
   }
 }
 
-@media screen and (max-width: 575.98px) {
+@media screen and (min-width: 576px) {
   .trigger-button {
     display: none;
   }
@@ -158,7 +158,6 @@
     display: none;
   }
   .paid-by-upi-container {
- 
     display: none;
   }
   .upi-image {

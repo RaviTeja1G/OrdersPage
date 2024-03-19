@@ -1,7 +1,4 @@
-// import { BrowserRouter, Route, Routes } from "react-router-dom";
 import React, { useState } from "react";
-// import { Component } from "react";
-// import MyntraContext from "./context/MyntraContext";
 import Home from "./components/Home";
 // import logo from "./logo.svg";
 import Profile from "./components/Profile";
