@@ -18,7 +18,7 @@ import "./index.css";
 class Profile extends Component {
   onClickOrdersButton = () => {
     const { navigateTo } = this.props;
-    navigateTo("orders");
+    navigateTo("exchange-delivered");
   };
 
   onClickNaveenAdminButton = () => {

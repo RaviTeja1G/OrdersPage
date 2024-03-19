@@ -10,7 +10,7 @@ import "./index.css";
 const ReactPopUp = (props) => {
   const revertBackToOrdersPage = () => {
     const { navigateTo } = props;
-    navigateTo("profile");
+    navigateTo("orders");
   };
 
   return (

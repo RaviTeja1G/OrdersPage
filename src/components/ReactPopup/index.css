@@ -116,3 +116,61 @@
     font-size: 14px;
   }
 }
+
+@media screen and (max-width: 575.98px) {
+  .trigger-button {
+    display: none;
+  }
+  .popup-container {
+    display: none;
+  }
+  .whole-container {
+    display: none;
+  }
+  .payment-info {
+    display: none;
+  }
+  .payment-heading {
+    display: none;
+  }
+  .pop-up-close {
+    display: none;
+  }
+  .amount-container {
+    display: none;
+  }
+  .no-of-products {
+    display: none;
+  }
+  .amount {
+    display: none;
+  }
+  .horizontal-rule-in-pop-up {
+    display: none;
+  }
+  .total-paid-container {
+    display: none;
+  }
+  .total-heading {
+    display: none;
+  }
+  .paid-amount {
+    display: none;
+  }
+  .paid-by-upi-container {
+ 
+    display: none;
+  }
+  .upi-image {
+    display: none;
+  }
+  .upi-description {
+    display: none;
+  }
+  .first-rupee-symbol {
+    display: none;
+  }
+  .second-rupee-symbol {
+    display: none;
+  }
+}

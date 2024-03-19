@@ -5,7 +5,7 @@ import { TfiHeadphoneAlt } from "react-icons/tfi";
 import { PiDiamondsFourLight } from "react-icons/pi";
 import { TbDirectionSign } from "react-icons/tb";
 import { GoDotFill } from "react-icons/go";
-import { CiStar } from "react-icons/ci";
+// import { CiStar } from "react-icons/ci";
 import { IoMdRadio } from "react-icons/io";
 import { IoCallOutline } from "react-icons/io5";
 import { FaIndianRupeeSign } from "react-icons/fa6";
@@ -16,11 +16,11 @@ import "./index.css";
 class OrdersPage extends Component {
   onClickBackArrowButton = () => {
     const { navigateTo } = this.props;
-    navigateTo("profile");
+    navigateTo("exchange-delivered");
   };
 
   viewBreakUpButtonClicked = () => {
-    console.log("button");
+   
     const { navigateTo } = this.props;
     navigateTo("pop-up");
   };

@@ -6,7 +6,7 @@ import Home from "./components/Home";
 // import logo from "./logo.svg";
 import Profile from "./components/Profile";
 import OrdersPage from "./components/OrdersPage";
-
+import ExchangeDelivered from "./components/ExchangeDelivered";
 import ReactPopup from "./components/ReactPopup";
 
 import "./App.css";
@@ -38,6 +38,9 @@ const App = () => {
         {page === "profile" && <Profile navigateTo={navigateTo} />}
         {page === "orders" && <OrdersPage navigateTo={navigateTo} />}
         {page === "pop-up" && <ReactPopup navigateTo={navigateTo} />}
+        {page === "exchange-delivered" && (
+          <ExchangeDelivered navigateTo={navigateTo} />
+        )}
       </div>
     </div>
   );
